@@ -37,7 +37,7 @@ Ensure your response is ONLY the JSON array with no extra text before or after.
     
     // Configure the model with better parameters
     const model = genAI.getGenerativeModel({ 
-      model: "gemini-2.0-flash-lite",
+      model: "gemini-2.5-flash-lite",
       generationConfig: {
         temperature: 0.7,
         topP: 0.9,
